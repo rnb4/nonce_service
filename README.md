@@ -1,4 +1,4 @@
-# SpruceID Take Home Assessment
+# Nonce Service
 
 This project demonstrates a web service that verifies ownership of a private key using ed25519 digital signatures and utilizes time sensitive nonces to prevent replay attacks.
 
@@ -24,7 +24,7 @@ cargo run --bin holder
 
 ### 3. Verify
 
-The user will be prompted to press enter.Pressing enter a second time will fail as the nonce will have been consumed. Waiting to long to press enter the first time (default is 5 seconds), will also fail as the nonce will time out.
+The user will be prompted to press enter. Pressing enter a second time will fail as the nonce will have been consumed. Waiting to long to press enter the first time (default is 5 seconds), will also fail as the nonce will time out.
 
 ## Analysis
 
