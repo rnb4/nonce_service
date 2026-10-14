@@ -44,10 +44,6 @@ The current implementation has a few print statements to show control flow, but 
 
 It would be nice to have environment variables, configuration files, or command line arguments to change variables such as the nonce timeout and server port.
 
-### Testing
-
-Considering the Holder program essentially tests the Verifier and the assessment did not state testing as a focus, tests are limited. More unit test covering unhappy paths as well as end to end testing would be ideal.
-
 ### Nonce Storage
 
 Nonces are stored in memory for simplicity. In the future nonces could be stored in a cache or database to allow for restarts and horizontal scaling.
